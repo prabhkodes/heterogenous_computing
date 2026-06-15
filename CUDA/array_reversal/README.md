@@ -1,12 +1,17 @@
 # Array Reversal
 
-This program demonstrates a CUDA kernel that reverses an array in parallel on the GPU. Each thread is responsible for swapping elements from opposite ends of the array using the GPU's parallel processing capabilities.
+CUDA kernel that reverses an array in-place on the GPU. Each thread swaps one pair of elements from opposite ends, so the whole array is reversed in a single parallel pass.
 
-## Compilation (Leonardo HPC)
+## Build & Run
 
-Load the required modules and compile using the NVC++ compiler:
-
+```bash
+# On a cluster
 module load gcc/12.2.0
 module load nvhpc/24.5
-
 nvc++ main.cu -o main.x
+
+# With nvcc
+nvcc main.cu -o main.x
+
+./main.x
+```

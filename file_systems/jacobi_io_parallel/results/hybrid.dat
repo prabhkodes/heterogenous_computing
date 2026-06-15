@@ -1,0 +1,859 @@
+Nodes=1  Ranks/node=8  OMP threads=14
+Slurm: cpus-per-task=14  ntasks-per-socket=4
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 13:45:16 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 13:45:17.633
+ENDING solver execution at rank 0 || 2025-11-07 13:46:02.603
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 6045501ms Min time: 5139195ms Avg time : 5.7432e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time: 25486ms Min time: 23687ms Avg time : 24711.9ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 3774804ms Min time: 3740537ms Avg time : 3.75397e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 36044210ms Min time: 35129069ms Avg time : 3.54256e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 44971064ms Min time: 44968927ms Avg time : 4.49697e+07ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=1  Ranks/node=8  OMP threads=14
+Slurm: cpus-per-task=14  ntasks-per-socket=4
+print_interval 2000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 2000
+--- (./jacobian.in size: 80 bytes) ---
+df957160eaf422d11a7be312c8910056  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 15:07:48 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 15:07:49.883
+ENDING solver execution at rank 0 || 2025-11-07 15:08:30.738
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 5397952ms Min time: 4646724ms Avg time : 5.11556e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time: 25597ms Min time: 23719ms Avg time : 24733.8ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 1147698ms Min time: 1141065ms Avg time : 1.14319e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 35000480ms Min time: 34262963ms Avg time : 3.45413e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 40857679ms Min time: 40855213ms Avg time : 4.08563e+07ms
+----------------------------------------------------------------------------------------------------
+
+
+
+Nodes=1  Ranks/node=4  OMP threads=28
+Slurm: cpus-per-task=28  ntasks-per-socket=2
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 14:05:54 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 14:05:55.319
+ENDING solver execution at rank 0 || 2025-11-07 14:06:43.096
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 6433537ms Min time: 1084931ms Avg time : 4.22498e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time: 48158ms Min time: 47622ms Avg time : 47876ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 3945830ms Min time: 3916241ms Avg time : 3.92993e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 42719631ms Min time: 37344783ms Avg time : 3.95662e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 47776523ms Min time: 47776152ms Avg time : 4.77763e+07ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=1  Ranks/node=28  OMP threads=4
+Slurm: cpus-per-task=4  ntasks-per-socket=14
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 14:43:53 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 14:43:57.152
+ENDING solver execution at rank 0 || 2025-11-07 14:44:42.819
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 9458152ms Min time: 7026409ms Avg time : 8.26775e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  8647ms Min time:  7764ms Avg time : 8221.11ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 4748313ms Min time: 4437925ms Avg time : 4.55437e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 34073826ms Min time: 31587764ms Avg time : 3.27966e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 45669429ms Min time: 45666401ms Avg time : 4.56675e+07ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=1  Ranks/node=28  OMP threads=4
+Slurm: cpus-per-task=4  ntasks-per-socket=14
+print_interval 2000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 2000
+--- (./jacobian.in size: 80 bytes) ---
+df957160eaf422d11a7be312c8910056  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 15:10:08 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 15:10:11.458
+ENDING solver execution at rank 0 || 2025-11-07 15:10:52.221
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 7114668ms Min time: 5975021ms Avg time : 6.62819e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  8444ms Min time:  7808ms Avg time : 8010.18ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 1335266ms Min time: 1301002ms Avg time : 1.3144e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 33397446ms Min time: 32287561ms Avg time : 3.27662e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 40767589ms Min time: 40763492ms Avg time : 4.07651e+07ms
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+Nodes=1  Ranks/node=56  OMP threads=2
+Slurm: cpus-per-task=2  ntasks-per-socket=28
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 14:09:42 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 14:09:47.988
+ENDING solver execution at rank 0 || 2025-11-07 14:10:32.370
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 7560195ms Min time: 6154074ms Avg time : 6.94538e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  4379ms Min time:  3622ms Avg time : 4085.23ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 5423251ms Min time: 5029319ms Avg time : 5.18833e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 32997546ms Min time: 31525998ms Avg time : 3.21903e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 44383422ms Min time: 44373469ms Avg time : 4.43777e+07ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=1  Ranks/node=2  OMP threads=56
+Slurm: cpus-per-task=56  ntasks-per-socket=1
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 14:12:09 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 14:12:10.541
+ENDING solver execution at rank 0 || 2025-11-07 14:13:39.579
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 2533914ms Min time: 1006576ms Avg time : 1.77024e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time: 95748ms Min time: 93902ms Avg time : 94825ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 2266563ms Min time: 2263493ms Avg time : 2.26503e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 85721918ms Min time: 84187075ms Avg time : 8.49545e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 89039452ms Min time: 89037861ms Avg time : 8.90387e+07ms
+----------------------------------------------------------------------------------------------------
+
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Nodes=2  Ranks/node=28  OMP threads=4
+Slurm: cpus-per-task=4  ntasks-per-socket=14
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 14:46:19 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 14:46:24.357
+ENDING solver execution at rank 0 || 2025-11-07 14:46:51.602
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 5924847ms Min time: 4562626ms Avg time : 5.33028e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  4325ms Min time:  3553ms Avg time : 3934.64ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 5841694ms Min time: 5394278ms Avg time : 5.59281e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 17228270ms Min time: 15780805ms Avg time : 1.62839e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 27245270ms Min time: 27242256ms Avg time : 2.72436e+07ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=2  Ranks/node=4  OMP threads=28
+Slurm: cpus-per-task=28  ntasks-per-socket=2
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 14:51:28 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 14:51:32.246
+ENDING solver execution at rank 0 || 2025-11-07 14:52:00.493
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 4131380ms Min time: 3677974ms Avg time : 3.96533e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time: 24504ms Min time: 23718ms Avg time : 24096.4ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 3932582ms Min time: 3919085ms Avg time : 3.92473e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 20602639ms Min time: 20153012ms Avg time : 2.03177e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 28246985ms Min time: 28245646ms Avg time : 2.82464e+07ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=2  Ranks/node=8  OMP threads=14
+Slurm: cpus-per-task=14  ntasks-per-socket=4
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 14:53:12 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 14:53:14.135
+ENDING solver execution at rank 0 || 2025-11-07 14:53:42.305
+
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 6527042ms Min time: 4797900ms Avg time : 5.60445e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time: 12699ms Min time: 11698ms Avg time : 12183ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 4092047ms Min time: 4012798ms Avg time : 4.04164e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 19316172ms Min time: 17515486ms Avg time : 1.8487e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 28169907ms Min time: 28168164ms Avg time : 2.81691e+07ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=2  Ranks/node=56  OMP threads=2
+Slurm: cpus-per-task=2  ntasks-per-socket=28
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 14:55:06 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 14:55:11.876
+ENDING solver execution at rank 0 || 2025-11-07 14:56:14.440
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 42846022ms Min time: 176763ms Avg time : 4.17257e+07ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  2338ms Min time:  1918ms Avg time : 2172.73ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 6060695ms Min time: 4337789ms Avg time : 4.55202e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 58016742ms Min time: 15269787ms Avg time : 1.62489e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 62565160ms Min time: 62561672ms Avg time : 6.2563e+07ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=2  Ranks/node=2  OMP threads=56
+Slurm: cpus-per-task=56  ntasks-per-socket=1
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 14:58:12 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 14:58:13.665
+ENDING solver execution at rank 0 || 2025-11-07 14:58:59.569
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 3636124ms Min time: 773663ms Avg time : 2.17597e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time: 48010ms Min time: 46776ms Avg time : 47293.8ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 3673140ms Min time: 3662497ms Avg time : 3.66893e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 41418629ms Min time: 38551462ms Avg time : 4.00106e+07ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 45903928ms Min time: 45901568ms Avg time : 4.59029e+07ms
+----------------------------------------------------------------------------------------------------
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+Nodes=8  Ranks/node=2  OMP threads=56
+Slurm: cpus-per-task=56  ntasks-per-socket=1
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 15:00:31 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 15:00:32.644
+ENDING solver execution at rank 0 || 2025-11-07 15:00:42.090
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1289486ms Min time: 1119894ms Avg time : 1.2245e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time: 12792ms Min time: 11820ms Avg time : 12183.8ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 3068347ms Min time: 3055148ms Avg time : 3.05974e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 5233492ms Min time: 5066317ms Avg time : 5.12635e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 9446893ms Min time: 9444880ms Avg time : 9.44587e+06ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=8  Ranks/node=2  OMP threads=56
+Slurm: cpus-per-task=56  ntasks-per-socket=1
+print_interval 2000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 2000
+--- (./jacobian.in size: 80 bytes) ---
+df957160eaf422d11a7be312c8910056  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:14:05 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:14:07.800
+ENDING solver execution at rank 0 || 2025-11-07 16:14:16.211
+
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1312560ms Min time: 1054796ms Avg time : 1.21969e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time: 12592ms Min time: 11631ms Avg time : 11964.8ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 1993427ms Min time: 1989604ms Avg time : 1.99132e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 5328553ms Min time: 5067404ms Avg time : 5.1622e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 8411193ms Min time: 8408633ms Avg time : 8.40962e+06ms
+----------------------------------------------------------------------------------------------------
+
+
+
+
+Nodes=8  Ranks/node=56  OMP threads=2
+Slurm: cpus-per-task=2  ntasks-per-socket=28
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 15:01:54 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 15:02:00.128
+ENDING solver execution at rank 0 || 2025-11-07 15:02:11.866
+
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1827432ms Min time: 1018413ms Avg time : 1.63483e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:   692ms Min time:   515ms Avg time : 617.105ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 6273524ms Min time: 5919078ms Avg time : 6.07138e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 4682006ms Min time: 3883201ms Avg time : 3.99925e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 11739292ms Min time: 11735585ms Avg time : 1.17363e+07ms
+----------------------------------------------------------------------------------------------------
+
+
+Nodes=8  Ranks/node=56  OMP threads=2
+Slurm: cpus-per-task=2  ntasks-per-socket=28
+print_interval 2000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 2000
+--- (./jacobian.in size: 80 bytes) ---
+df957160eaf422d11a7be312c8910056  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:12:37 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:12:44.313
+ENDING solver execution at rank 0 || 2025-11-07 16:12:52.127
+
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1823498ms Min time: 742038ms Avg time : 1.62748e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:   699ms Min time:   495ms Avg time : 603.788ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 2198222ms Min time: 2117527ms Avg time : 2.15139e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 4892514ms Min time: 3838330ms Avg time : 4.00449e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 7817060ms Min time: 7813213ms Avg time : 7.81424e+06ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=8  Ranks/node=28  OMP threads=4
+Slurm: cpus-per-task=4  ntasks-per-socket=14
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 15:03:20 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 15:03:23.948
+ENDING solver execution at rank 0 || 2025-11-07 15:03:33.994
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1916446ms Min time: 1450226ms Avg time : 1.73832e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  1195ms Min time:   893ms Avg time : 1042.33ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 4340282ms Min time: 4155740ms Avg time : 4.22249e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 4307104ms Min time: 3912561ms Avg time : 4.0548e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 10048309ms Min time: 10045293ms Avg time : 1.00464e+07ms
+----------------------------------------------------------------------------------------------------
+
+
+
+
+Nodes=8  Ranks/node=4  OMP threads=28
+Slurm: cpus-per-task=28  ntasks-per-socket=2
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1  dimension_nb 5000
+     2  corner 100
+     3  field_fill 0.5
+     4  max_steps 10000
+     5  print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 15:04:46 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 15:04:47.770
+ENDING solver execution at rank 0 || 2025-11-07 15:04:56.903
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1558086ms Min time: 1356381ms Avg time : 1.4336e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  6253ms Min time:  5724ms Avg time : 6033.5ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 2990231ms Min time: 2960951ms Avg time : 2.97259e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 4765278ms Min time: 4578853ms Avg time : 4.69367e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 9133169ms Min time: 9131438ms Avg time : 9.13213e+06ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=8  Ranks/node=4  OMP threads=28
+Slurm: cpus-per-task=28  ntasks-per-socket=2
+print_interval 1000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 1000
+--- (./jacobian.in size: 80 bytes) ---
+3b0972a490d28d25579237de2a2d9be4  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:31:10 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:31:12.737
+ENDING solver execution at rank 0 || 2025-11-07 16:31:22.638
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1510930ms Min time: 1209207ms Avg time : 1.40026e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  6407ms Min time:  5797ms Avg time : 6079.41ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 3758788ms Min time: 3740361ms Avg time : 3.74663e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 4915388ms Min time: 4610928ms Avg time : 4.72157e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 9901515ms Min time: 9899345ms Avg time : 9.90044e+06ms
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+Nodes=8  Ranks/node=4  OMP threads=28
+Slurm: cpus-per-task=28  ntasks-per-socket=2
+print_interval 2000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 2000
+--- (./jacobian.in size: 80 bytes) ---
+df957160eaf422d11a7be312c8910056  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 15:45:31 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 15:45:33.302
+ENDING solver execution at rank 0 || 2025-11-07 15:45:41.604
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1614456ms Min time: 1242549ms Avg time : 1.47522e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  6460ms Min time:  5858ms Avg time : 6118.09ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 2056476ms Min time: 2048664ms Avg time : 2.05183e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 4967830ms Min time: 4599505ms Avg time : 4.74107e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 8301875ms Min time: 8299607ms Avg time : 8.30058e+06ms
+----------------------------------------------------------------------------------------------------
+
+
+
+
+Nodes=8  Ranks/node=8  OMP threads=14
+Slurm: cpus-per-task=14  ntasks-per-socket=4
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 78 bytes) ---
+978b56b6f645ca840a576da21788dd9d  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 15:05:50 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 15:05:54.621
+ENDING solver execution at rank 0 || 2025-11-07 15:06:03.684
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1641101ms Min time: 1398635ms Avg time : 1.51466e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  3419ms Min time:  3011ms Avg time : 3179.03ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 3208488ms Min time: 3120188ms Avg time : 3.15538e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 4456501ms Min time: 4266778ms Avg time : 4.35912e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 9063608ms Min time: 9041832ms Avg time : 9.06011e+06ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=8  Ranks/node=8  OMP threads=14
+Slurm: cpus-per-task=14  ntasks-per-socket=4
+print_interval 1000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 1000
+--- (./jacobian.in size: 80 bytes) ---
+3b0972a490d28d25579237de2a2d9be4  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:26:02 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:26:05.716
+ENDING solver execution at rank 0 || 2025-11-07 16:26:14.196
+
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1607804ms Min time: 1405210ms Avg time : 1.52249e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  3232ms Min time:  2853ms Avg time : 3086.25ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 2582261ms Min time: 2534955ms Avg time : 2.55501e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 4466834ms Min time: 4291814ms Avg time : 4.36944e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 8480521ms Min time: 8476833ms Avg time : 8.47789e+06ms
+----------------------------------------------------------------------------------------------------
+
+
+
+
+Nodes=8  Ranks/node=8  OMP threads=14
+Slurm: cpus-per-task=14  ntasks-per-socket=4
+print_interval 2000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 2000
+--- (./jacobian.in size: 80 bytes) ---
+df957160eaf422d11a7be312c8910056  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:15:55 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:15:58.105
+ENDING solver execution at rank 0 || 2025-11-07 16:16:05.460
+
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1634629ms Min time: 1329730ms Avg time : 1.52913e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  3360ms Min time:  2850ms Avg time : 3121.28ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 1422091ms Min time: 1403082ms Avg time : 1.41055e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 4574880ms Min time: 4273816ms Avg time : 4.38358e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 7355454ms Min time: 7353527ms Avg time : 7.35444e+06ms
+----------------------------------------------------------------------------------------------------
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Nodes=10  Ranks/node=8  OMP threads=14
+Slurm: cpus-per-task=14  ntasks-per-socket=4
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1  dimension_nb 5000
+     2  corner 100
+     3  field_fill 0.5
+     4  max_steps 10000
+     5  print_interval 500
+--- (./jacobian.in size: 79 bytes) ---
+b645e5e558d3ff9ed9822ea3f05e3b41  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:19:02 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:19:05.752
+ENDING solver execution at rank 0 || 2025-11-07 16:19:16.006
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1460927ms Min time: 1230908ms Avg time : 1.34603e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  2623ms Min time:  2350ms Avg time : 2485.91ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 5441396ms Min time: 5340124ms Avg time : 5.37405e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 3632403ms Min time: 3414822ms Avg time : 3.50246e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 10255030ms Min time: 10252245ms Avg time : 1.02537e+07ms
+----------------------------------------------------------------------------------------------------
+
+
+Nodes=10  Ranks/node=8  OMP threads=14
+Slurm: cpus-per-task=14  ntasks-per-socket=4
+print_interval 1000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 1000
+--- (./jacobian.in size: 80 bytes) ---
+3b0972a490d28d25579237de2a2d9be4  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:24:44 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:24:46.516
+ENDING solver execution at rank 0 || 2025-11-07 16:25:07.269
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 14707239ms Min time: 5739277ms Avg time : 1.40977e+07ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  2686ms Min time:  2277ms Avg time : 2526.24ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 3440076ms Min time: 2699898ms Avg time : 3.02423e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 12281829ms Min time: 3304375ms Avg time : 3.59844e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 20753030ms Min time: 20750219ms Avg time : 2.07509e+07ms
+----------------------------------------------------------------------------------------------------
+
+
+
+Nodes=10  Ranks/node=8  OMP threads=14
+Slurm: cpus-per-task=14  ntasks-per-socket=4
+print_interval 2000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 2000
+--- (./jacobian.in size: 80 bytes) ---
+df957160eaf422d11a7be312c8910056  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:17:59 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:18:02.650
+ENDING solver execution at rank 0 || 2025-11-07 16:18:09.060
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1478049ms Min time: 1291013ms Avg time : 1.39477e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:  2785ms Min time:  2247ms Avg time : 2542.54ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 1480575ms Min time: 1464564ms Avg time : 1.47169e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 3607341ms Min time: 3426749ms Avg time : 3.51057e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 6409871ms Min time: 6405282ms Avg time : 6.40806e+06ms
+----------------------------------------------------------------------------------------------------
+
+
+Nodes=10  Ranks/node=28  OMP threads=4
+Slurm: cpus-per-task=4  ntasks-per-socket=14
+print_interval 500
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 500
+--- (./jacobian.in size: 79 bytes) ---
+b645e5e558d3ff9ed9822ea3f05e3b41  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:20:17 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:20:22.324
+ENDING solver execution at rank 0 || 2025-11-07 16:20:33.960
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1788261ms Min time: 1257803ms Avg time : 1.50318e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:   962ms Min time:   709ms Avg time : 839.068ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 7030074ms Min time: 6715502ms Avg time : 6.83513e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 3420360ms Min time: 3086214ms Avg time : 3.26429e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 11635742ms Min time: 11624136ms Avg time : 1.1633e+07ms
+----------------------------------------------------------------------------------------------------
+
+Nodes=10  Ranks/node=28  OMP threads=4
+Slurm: cpus-per-task=4  ntasks-per-socket=14
+print_interval 1000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 1000
+--- (./jacobian.in size: 80 bytes) ---
+3b0972a490d28d25579237de2a2d9be4  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:23:18 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:23:23.248
+ENDING solver execution at rank 0 || 2025-11-07 16:23:31.585
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1794519ms Min time: 1299688ms Avg time : 1.52731e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:   926ms Min time:   717ms Avg time : 835.007ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 3622150ms Min time: 3467507ms Avg time : 3.51437e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 3515218ms Min time: 3038123ms Avg time : 3.26102e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 8337041ms Min time: 8317071ms Avg time : 8.33297e+06ms
+----------------------------------------------------------------------------------------------------
+
+
+
+Nodes=10  Ranks/node=28  OMP threads=4
+Slurm: cpus-per-task=4  ntasks-per-socket=14
+print_interval 2000
+-------------------- BEGIN ./jacobian.in --------------------
+     1	dimension_nb 5000
+     2	corner 100
+     3	field_fill 0.5
+     4	max_steps 10000
+     5	print_interval 2000
+--- (./jacobian.in size: 80 bytes) ---
+df957160eaf422d11a7be312c8910056  ./jacobian.in
+--------------------- END ./jacobian.in ---------------------
+[RUN] 2025-11-07 16:21:21 — Starting to run with srun…
+STARTING solver execution at rank 0 || 2025-11-07 16:21:25.909
+ENDING solver execution at rank 0 || 2025-11-07 16:21:32.626
+
+----------------------------------------------------------------------------------------------------
+Function : COMM  Max time: 1684303ms Min time: 1257876ms Avg time : 1.43696e+06ms
+----------------------------------------------------------------------------------------------------
+Function : INIT Max time:   976ms Min time:   741ms Avg time : 832.054ms
+----------------------------------------------------------------------------------------------------
+Function : Memory I/O           Max time: 2044754ms Min time: 1956938ms Avg time : 1.99507e+06ms
+----------------------------------------------------------------------------------------------------
+Function : SOLVE AND SWAP       Max time: 3425531ms Min time: 3037500ms Avg time : 3.2515e+06ms
+----------------------------------------------------------------------------------------------------
+Function : Solve + swap + Communicate + Write Max time: 6718277ms Min time: 6707671ms Avg time : 6.71372e+06ms
+----------------------------------------------------------------------------------------------------
